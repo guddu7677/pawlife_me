@@ -19,11 +19,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         useMaterial3: true,
       ),
-      home:  MainPage(),
+      home:  LoginPage(),
       routes: {
         '/login': (context) =>  LoginPage(),
         '/register': (context) =>  RegisterPage(),
        '/MainPage': (context) =>  MainPage(),
+
 
       },
     );

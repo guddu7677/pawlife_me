@@ -74,7 +74,7 @@ class _AdvicePageState extends State<AdvicePage>
         children:  [
         DogBreeds(),
        CatBreeds(),
-       PetInsurenceCover(),
+       PetInsuranceCover(),
         CompareProviders()
 
         ],

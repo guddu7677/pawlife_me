@@ -26,7 +26,7 @@ class _PetInsurancePageState extends State<PetInsurancePage>
     super.initState();
     _tabController = TabController(length: 4, vsync: this);
     _tabController.addListener(() {
-      setState(() {}); // To update background color when tab changes
+      setState(() {}); 
     });
   }
 

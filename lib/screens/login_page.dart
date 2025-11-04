@@ -96,7 +96,7 @@ class _LoginPageState extends State<LoginPage> {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.pushNamed(context, "/loginpage");
+                    Navigator.pushNamed(context, "/MainPage");
                   }, child: Text("Login"), 
                   // onPressed: _isLoading ? null : _login,
                   // child: _isLoading
